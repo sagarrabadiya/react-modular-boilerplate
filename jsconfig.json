@@ -1,0 +1,77 @@
+{
+  "baseUrl": ".",
+  "include": ["src/**/*", "tests/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "module": "es2015",
+    "paths": {
+      "@/*": ["./*"],
+      "@": [
+        "./index.js",
+        "./index.json",
+        "./index.jsx",
+        "./index.less",
+        "./index.css"
+      ],
+      "@src/*": ["src/*"],
+      "@src": [
+        "src/index.js",
+        "src/index.json",
+        "src/index.jsx",
+        "src/index.less",
+        "src/index.css"
+      ],
+      "@layouts/*": ["src/layouts/*"],
+      "@layouts": [
+        "src/layouts/index.js",
+        "src/layouts/index.json",
+        "src/layouts/index.jsx",
+        "src/layouts/index.less",
+        "src/layouts/index.css"
+      ],
+      "@components/*": ["src/components/*"],
+      "@components": [
+        "src/components/index.js",
+        "src/components/index.json",
+        "src/components/index.jsx",
+        "src/components/index.less",
+        "src/components/index.css"
+      ],
+      "@assets/*": ["src/assets/*"],
+      "@assets": [
+        "src/assets/index.js",
+        "src/assets/index.json",
+        "src/assets/index.jsx",
+        "src/assets/index.less",
+        "src/assets/index.css"
+      ],
+      "@utils/*": ["src/utils/*"],
+      "@utils": [
+        "src/utils/index.js",
+        "src/utils/index.json",
+        "src/utils/index.jsx",
+        "src/utils/index.less",
+        "src/utils/index.css"
+      ],
+      "@design/*": ["src/design/index.less/*"],
+      "@design": ["src/design/index.less"],
+      "@modules/*": ["src/modules/*"],
+      "@modules": [
+        "src/modules/index.js",
+        "src/modules/index.json",
+        "src/modules/index.jsx",
+        "src/modules/index.less",
+        "src/modules/index.css"
+      ],
+      "@api/*": ["src/api/*"],
+      "@api": [
+        "src/api/index.js",
+        "src/api/index.json",
+        "src/api/index.jsx",
+        "src/api/index.less",
+        "src/api/index.css"
+      ]
+    }
+  }
+}

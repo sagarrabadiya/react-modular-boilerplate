@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import AvailableModules from "./available-modules";
-import Layout from "./layouts/Layout.jsx";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Layout from '@layouts/Layout.jsx'
+import AvailableModules from './available-modules'
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
